@@ -1,0 +1,81 @@
+﻿Type,Titre,Auteur,Editeur,Date_Parution,Genre,Support,Nombre_Exemplaires,Emprunteur,Emprunteur,Mel,Date_Emprunt,Date_Retour
+Cassette Audio,Sgt. Pepper's Lonely Hearts Club Band,The Beatles,Parlophone,1967,Rock,Cassette Audio,3,De Jour,Adam,Adam.De Jour@rochefourchat.com,05/04/25,05/05/25
+Cassette Audio,The Dark Side of the Moon,Pink Floyd,Harvest Records,1973,Rock Progressif,Cassette Audio,1,Labèche,Amel,Amel.Labèche@rochefourchat.com,15/04/25,15/05/25
+Cassette Audio,The Best of The Doors,The Doors,Elektra Records,1973,Rock,Cassette Audio,3,Plutoutessatete,Anna,Anna.Plutoutessatete@rochefourchat.com,19/04/25,19/05/25
+Cassette Audio,The Best of Elton John,Elton John,MCA Records,1974,Pop,Cassette Audio,2,Male,Annie,Annie.Male@rochefourchat.com,23/04/25,22/06/25
+Cassette Audio,The Best of ABBA,ABBA,Polar Music,1975,Pop,Cassette Audio,2,Soitil,Benny,Benny.Soitil@rochefourchat.com,27/04/25,27/05/25
+Cassette Audio,Rumours,Fleetwood Mac,Warner Bros,1977,Rock,Cassette Audio,2,Minie,Cathy,Cathy.Minie@rochefourchat.com,03/05/25,02/06/25
+Cassette Audio,The Best of Queen,Queen,EMI Records,1981,Rock,Cassette Audio,3,Dereck,Tom,Tom.Dereck@rochefourchat.com,15/05/25,14/06/25
+Cassette Audio,The Joshua Tree,U2,Island Records,1987,Rock,Cassette Audio,3,Sens,Renée,Renée.Sens@rochefourchat.com,25/05/25,24/07/25
+Cassette Audio,The Immaculate Collection,Madonna,Sire Records,1990,Pop,Cassette Audio,2,Amploi,Paul,Paul.Amploi@rochefourchat.com,31/05/25,30/07/25
+Cassette Audio,The Bodyguard,Whitney Houston,Arista Records,1992,Soundtrack,Cassette Audio,2,Début,Jean-Marc,Jean-Marc.Début@rochefourchat.com,06/06/25,05/08/25
+Cassette Audio,The Marshall Mathers LP,Eminem,Aftermath Entertainment,2000,Hip-Hop,Cassette Audio,3,Coupee,Henriette,Henriette.Coupee@rochefourchat.com,22/06/25,22/07/25
+Cassette Audio,Back to Black,Amy Winehouse,Island Records,2006,Soul,Cassette Audio,3,Vigote,Sarah,Sarah.Vigote@rochefourchat.com,28/07/25,29/09/25
+CD,Led Zeppelin IV,Led Zeppelin,Atlantic Records,1971,Rock,CD,3,Xeption,Alex,Alex.Xeption@rochefourchat.com,11/04/25,11/05/25
+CD,The Best of The Doors,The Doors,Elektra Records,1973,Rock,CD,3,Vojambon,Andy,Andy.Vojambon@rochefourchat.com,17/04/25,17/05/25
+CD,The Best of ABBA,ABBA,Polar Music,1975,Pop,CD,2,Oie,Bart,Bart.Oie@rochefourchat.com,25/04/25,25/05/25
+CD,Bat Out of Hell,Meat Loaf,Cleveland International Records,1977,Rock,CD,2,Christ,Alain,Alain.Christ@rochefourchat.com,05/05/25,04/06/25
+CD,Back in Black,AC/DC,Atlantic Records,1980,Hard Rock,CD,3,Rable,Daisy,Daisy.Rable@rochefourchat.com,09/05/25,08/06/25
+CD,The Best of David Bowie,David Bowie,EMI Records,1980,Rock,CD,3,Dereck,Tom,Tom.Dereck@rochefourchat.com,13/05/25,12/06/25
+CD,The Best of Queen,Queen,EMI Records,1981,Rock,CD,3,Dereck,Tom,Tom.Dereck@rochefourchat.com,17/05/25,16/06/25
+CD,Thriller,Michael Jackson,Epic Records,1982,Musique Pop,CD,3,Técenfote,Dick,Dick.Técenfote@rochefourchat.com,19/05/25,18/06/25
+CD,The Best of Bob Marley,Bob Marley,Island Records,1984,Reggae,CD,3,Vigote,Sarah,Sarah.Vigote@rochefourchat.com,23/05/25,22/07/25
+CD,Nevermind,Nirvana,DGC Records,1991,Grunge,CD,3,Fils,Lorie,Lorie.Fils@rochefourchat.com,02/06/25,01/08/25
+CD,American Idiot,Green Day,Reprise Records,2004,Punk Rock,CD,3,Plutoutessatete,Anna,Anna.Plutoutessatete@rochefourchat.com,24/07/25,25/09/25
+CD,The Essential Michael Jackson,Michael Jackson,Epic Records,2005,Pop,CD,3,Plutoutessatete,Anna,Anna.Plutoutessatete@rochefourchat.com,26/07/25,27/09/25
+CD,21,Adele,XL Recordings,2011,Pop,CD,4,Javel,Aude,Aude.Javel@rochefourchat.com,03/08/25,02/09/25
+DVD,Le Parrain,Francis Ford Coppola,Paramount Pictures,1972,Drame,DVD,5,Patamob,Alphonse,Alphonse.Patamob@rochefourchat.com,13/04/25,13/05/25
+DVD,Le Parrain II,Francis Ford Coppola,Paramount Pictures,1974,Drame,DVD,3,Male,Annie,Annie.Male@rochefourchat.com,21/04/25,21/05/25
+DVD,Le Grand Bleu,Luc Besson,Gaumont,1988,Drame,DVD,4,Sens,Renée,Renée.Sens@rochefourchat.com,29/05/25,28/07/25
+DVD,La Liste de Schindler,Steven Spielberg,Universal Pictures,1993,Drame,DVD,2,Kilo,Sandy,Sandy.Kilo@rochefourchat.com,10/06/25,10/07/25
+DVD,Gladiator,Ridley Scott,DreamWorks Pictures,2000,Action,DVD,5,,,,,
+DVD,Le Fabuleux Destin d'Amélie Poulain,Jean-Pierre Jeunet,UGC-Fox Distribution,2001,Comédie,DVD,4,Kanne,Jerry,Jerry.Kanne@rochefourchat.com,26/06/25,26/07/25
+DVD,Le Voyage de Chihiro,Hayao Miyazaki,Studio Ghibli,2001,Animation,DVD,3,Christ,Alain,Alain.Christ@rochefourchat.com,28/06/25,28/07/25
+DVD,Le Pianiste,Roman Polanski,Focus Features,2002,Drame,DVD,2,Dé,Bonnie,Bonnie.Dé@rochefourchat.com,20/07/25,21/09/25
+DVD,Le Seigneur des Anneaux : Le Retour du roi,Peter Jackson,New Line Cinema,2003,Fantastique,DVD,4,Coupee,Henriette,Henriette.Coupee@rochefourchat.com,22/07/25,23/09/25
+DVD,Avatar,James Cameron,20th Century Fox,2009,Science-Fiction,DVD,5,De Jour,Adam,Adam.De Jour@rochefourchat.com,30/07/25,01/10/25
+DVD,Inception,Christopher Nolan,Warner Bros,2010,Science-Fiction,DVD,4,De Jour,Adam,Adam.De Jour@rochefourchat.com,01/08/25,03/10/25
+DVD,Le Loup de Wall Street,Martin Scorsese,Paramount Pictures,2013,Biographie,DVD,5,Vigote,Sarah,Sarah.Vigote@rochefourchat.com,05/08/25,04/09/25
+DVD,La La Land,Damien Chazelle,Lionsgate,2016,Musical,DVD,3,Christ,Alain,Alain.Christ@rochefourchat.com,11/08/25,10/09/25
+Livre,Les Liaisons dangereuses,Pierre Choderlos de Laclos,Durand Neveu,1782,Roman Épistolaire,Livre,2,Diote,Kelly,Kelly.Diote@rochefourchat.com,08/03/25,07/04/25
+Livre,Le Père Goriot,Honoré de Balzac,Werdet et Lecou,1835,Roman Réaliste,Livre,3,Balle,Jean,Jean.Balle@rochefourchat.com,10/03/25,09/04/25
+Livre,Les Trois Mousquetaires,Alexandre Dumas,Baudry,1844,Aventure,Livre,5,Balle,Jean,Jean.Balle@rochefourchat.com,12/03/25,11/04/25
+Livre,Les Hauts de Hurlevent,Emily Brontë,Thomas Cautley Newby,1847,Roman Gothique,Livre,2,Coupee,Henriette,Henriette.Coupee@rochefourchat.com,14/03/25,13/04/25
+Livre,Moby Dick,Herman Melville,Richard Bentley,1851,Aventure,Livre,2,Houche,Jacques,Jacques.Houche@rochefourchat.com,16/03/25,15/04/25
+Livre,Les Misérables,Victor Hugo,Hachette,1862,Roman Historique,Livre,3,Bambelle,Larry,Larry.Bambelle@rochefourchat.com,18/03/25,17/04/25
+Livre,L'Odyssée,Homère,Traduction par Leconte de Lisle,1867,Épopée,Livre,2,Kanne,Jerry,Jerry.Kanne@rochefourchat.com,20/03/25,19/04/25
+Livre,Guerre et Paix,Léon Tolstoï,Fayard,1869,Roman Historique,Livre,2,Pote,Jessica,Jessica.Pote@rochefourchat.com,22/03/25,21/04/25
+Livre,Le Tour du monde en quatre-vingts jours,Jules Verne,Pierre-Jules Hetzel,1873,Aventure,Livre,2,Fiant,Eddy,Eddy.Fiant@rochefourchat.com,24/03/25,23/04/25
+Livre,Les Contes de la bécasse,Guy de Maupassant,Victor Havard,1883,Nouvelles,Livre,3,Kilo,Sandy,Sandy.Kilo@rochefourchat.com,26/03/25,25/04/25
+Livre,Le Portrait de Dorian Gray,Oscar Wilde,"Ward, Lock and Company",1890,Roman Gothique,Livre,2,Proviste,Alain,Alain.Proviste@rochefourchat.com,28/03/25,27/04/25
+Livre,Le Meilleur des mondes,Aldous Huxley,Chatto & Windus,1932,Dystopie,Livre,4,Javel,Aude,Aude.Javel@rochefourchat.com,30/03/25,29/04/25
+Livre,Le Petit Prince,Antoine de Saint-Exupéry,Gallimard,1943,Littérature,Livre,5,Lémir,Abel,Abel.Lémir@rochefourchat.com,01/04/25,01/05/25
+Livre,1984,George Orwell,Secker & Warburg,1949,Dystopie,Livre,2,Labrosse,Adam,Adam.Labrosse@rochefourchat.com,03/04/25,03/05/25
+VHS,Le Grand Bleu,Luc Besson,Gaumont,1988,Drame,VHS,4,Sens,Renée,Renée.Sens@rochefourchat.com,27/05/25,26/07/25
+VHS,Le Silence des agneaux,Jonathan Demme,Orion Pictures,1991,Thriller,VHS,4,Deuf,John,John.Deuf@rochefourchat.com,04/06/25,03/08/25
+VHS,Le Roi Lion,Roger Allers, Walt Disney Pictures,1994,Animation,VHS,6,Kilo,Sandy,Sandy.Kilo@rochefourchat.com,12/06/25,12/07/25
+VHS,Forrest Gump,Robert Zemeckis,Paramount Pictures,1994,Drame,VHS,4,Kilo,Sandy,Sandy.Kilo@rochefourchat.com,14/06/25,14/07/25
+VHS,Titanic,James Cameron,20th Century Fox,1997,Romance,VHS,3,Houche,Jacques,Jacques.Houche@rochefourchat.com,16/06/25,16/07/25
+VHS,Gladiator,Ridley Scott,DreamWorks Pictures,2000,Action,VHS,5,Kanne,Jerry,Jerry.Kanne@rochefourchat.com,18/06/25,18/07/25
+VHS,Le Voyage de Chihiro,Hayao Miyazaki,Studio Ghibli,2001,Animation,VHS,3,Houche,Jacques,Jacques.Houche@rochefourchat.com,30/06/25,30/07/25
+VHS,Le Fabuleux Destin d'Amélie Poulain,Jean-Pierre Jeunet,UGC-Fox Distribution,2001,Comédie,VHS,4,Fils,Lorie,Lorie.Fils@rochefourchat.com,04/07/25,03/08/25
+VHS,Le Voyage de Chihiro,Hayao Miyazaki,Studio Ghibli,2001,Animation,VHS,3,Javel,Aude,Aude.Javel@rochefourchat.com,06/07/25,05/08/25
+VHS,Le Fabuleux Destin d'Amélie Poulain,Jean-Pierre Jeunet,UGC-Fox Distribution,2001,Comédie,VHS,4,Houche,Jacques,Jacques.Houche@rochefourchat.com,10/07/25,09/08/25
+VHS,Le Voyage de Chihiro,Hayao Miyazaki,Studio Ghibli,2001,Animation,VHS,3,,,,,
+VHS,Le Pianiste,Roman Polanski,Focus Features,2002,Drame,VHS,2,Dé,Bonnie,Bonnie.Dé@rochefourchat.com,18/07/25,19/09/25
+VHS,La Reine des neiges,Chris Buck, Walt Disney Pictures,2013,Animation,VHS,6,Fils,Lorie,Lorie.Fils@rochefourchat.com,07/08/25,06/09/25
+VHS,Interstellar,Christopher Nolan,Paramount Pictures,2014,Science-Fiction,VHS,4,,,,,
+VHS,Le Roi Lion,Jon Favreau, Walt Disney Pictures,2019,Animation,VHS,5,Vigote,Sarah,Sarah.Vigote@rochefourchat.com,13/08/25,12/09/25
+Vinyle,The Beatles,The Beatles,Apple Records,1968,Rock,Vinyle,3,De Jour,Adam,Adam.De Jour@rochefourchat.com,07/04/25,07/05/25
+Vinyle,Abbey Road,The Beatles,Apple Records,1969,Rock,Vinyle,2,Halord,Ahmed,Ahmed.Halord@rochefourchat.com,09/04/25,09/05/25
+Vinyle,Hotel California,Eagles,Asylum Records,1976,Rock,Vinyle,2,Dé,Bonnie,Bonnie.Dé@rochefourchat.com,29/04/25,29/05/25
+Vinyle,Their Greatest Hits (1971-1975),Eagles,Asylum Records,1976,Rock,Vinyle,3,Dé,Bonnie,Bonnie.Dé@rochefourchat.com,01/05/25,31/05/25
+Vinyle,The Wall,Pink Floyd,Harvest Records,1979,Rock Progressif,Vinyle,3,Voyant,Claire,Claire.Voyant@rochefourchat.com,07/05/25,06/06/25
+Vinyle,The Best of David Bowie,David Bowie,EMI Records,1980,Rock,Vinyle,3,Lemental,Debbie,Debbie.Lemental@rochefourchat.com,11/05/25,10/06/25
+Vinyle,Born in the U.S.A.,Bruce Springsteen,Columbia Records,1984,Rock,Vinyle,3,Toir,Théodore,Théodore.Toir@rochefourchat.com,21/05/25,20/07/25
+Vinyle,The Chronic,Dr. Dre,Death Row Records,1992,Hip-Hop,Vinyle,2,Mensoif,Gérard,Gérard.Mensoif@rochefourchat.com,08/06/25,07/08/25
+Vinyle,Hybrid Theory,Linkin Park,Warner Bros,2000,Rock Alternatif,Vinyle,3,Coupee,Henriette,Henriette.Coupee@rochefourchat.com,20/06/25,20/07/25
+Vinyle,The Very Best of Prince,Prince,Warner Bros,2001,Funk,Vinyle,3,Fils,Lorie,Lorie.Fils@rochefourchat.com,02/07/25,01/08/25
+Vinyle,The Very Best of Prince,Prince,Warner Bros,2001,Funk,Vinyle,3,Javel,Aude,Aude.Javel@rochefourchat.com,08/07/25,07/08/25
+Vinyle,The Very Best of Prince,Prince,Warner Bros,2001,Funk,Vinyle,3,Kanne,Jerry,Jerry.Kanne@rochefourchat.com,14/07/25,15/09/25
+Vinyle,The Eminem Show,Eminem,Aftermath Entertainment,2002,Hip-Hop,Vinyle,3,Kanne,Jerry,Jerry.Kanne@rochefourchat.com,16/07/25,17/09/25

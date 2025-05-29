@@ -50,13 +50,11 @@
         <p>Disponible</p>
     </div>
 
-    <div class="espace"></div>
-
     <div class="container">
         <img src="images/livre_non_disponible.png" alt="Livre non disponible" class="image_livre">
             <h1>Titre</h1>
-         <h3>Catégorie</h3>
-         <h5>Non disponible</h5>
+         <h3>Catégorie</h2>
+         <h5>Non disponible</h3>
         <div class="separateur"> </div>   
         <h3>Description</h3>
         <p>L'Odyssée d'Homère narre le périple épique d'Ulysse après la guerre de Troie. Son voyage de retour à Ithaque est entravé par des épreuves surnaturelles, notamment chez les Cyclopes, les Sirènes et Circé. Pendant son absence, sa femme Pénélope résiste aux prétendants.
@@ -81,4 +79,31 @@
     </div>
 
 </body>
+
+<footer>
+        <div>   
+            <h3>CATALOGUE</h3>
+            <p>Casette audio</p>
+            <p>CD</p>
+            <p>DVD</p>
+            <p>Livre</p>
+            <p>VHS</p>
+            <p>Vinyle</p>
+        </div>
+
+        <div>
+            <h3>CONTACT</h3>
+            <p>Association Livresse</p>
+            <p>La roche fourchat</p>
+            <p>18 avenue du livre</p>
+            <p>+33 06 06 06 06 06</p>
+            <p>email@gmail.com</p>
+        </div>
+        <div>
+            <h3>Inscrivez-vous à notrenews-letter pour ne rateraucunes nouveautées.</h3>
+        <form>
+             </form>
+
+</footer>
+
 </html>

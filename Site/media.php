@@ -1,3 +1,4 @@
+<?php $pageTitle = "Média"; include('php-elements/header.php'); ?>
 <?php
 $utilisateur = "root";
 $mdp = "";
@@ -33,15 +34,17 @@ $auteur = htmlspecialchars($media['auteur']);
 $editeur = htmlspecialchars($media['editeur']);
 $type = htmlspecialchars($media['type']);
 $genre = htmlspecialchars($media['genre']);
-$disponible = $media['nombreExemplaire'] > 0 ? "Disponible" : "Indisponible";
+$nbEx = intval($media['nombreExemplaire']);
+if ($nbEx > 1) {
+    $disponible = "$nbEx exemplaires disponibles";
+} elseif ($nbEx === 1) {
+    $disponible = "1 exemplaire disponible";
+} else {
+    $disponible = "Pas disponible";
+}
+
 ?>
 
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <title>Détails du média</title>
-</head>
 <body>
     <h1><?php echo $titre; ?></h1>
     <img src="img/placeholder.png" alt="Image du média" width="200">
@@ -50,6 +53,8 @@ $disponible = $media['nombreExemplaire'] > 0 ? "Disponible" : "Indisponible";
     <p><strong>Type :</strong> <?php echo $type; ?></p>
     <p><strong>Genre :</strong> <?php echo $genre; ?></p>
     <p><strong>Disponibilité :</strong> <?php echo $disponible; ?></p>
-    <a href="test.php">← Retour à la liste</a>
+    <a href="javascript:history.back()">← Retour à la liste</a>
+
+    <?php include('php-elements/footer.php'); ?>
 </body>
 </html>

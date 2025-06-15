@@ -2,11 +2,10 @@
 $pageTitle = "Catégories";
 include('php-elements/header.php');
 
-$utilisateur = "root";
-$mdp = "";
-$base = "djepaxhk";
-$serveur = "localhost";
-$port = 3306;
+$utilisateur = "ijtebowdelechere";
+$mdp = "LucaDELECHERE2025";
+$base = "ijtebowdelechere";
+$serveur = "ijtebowdelechere.mysql.db";
 
 try {
     $conn = new PDO("mysql:host=$serveur;dbname=$base", $utilisateur, $mdp);
@@ -22,7 +21,7 @@ if (isset($_GET['idType'])) {
     $idType = intval($_GET['idType']); // sécurisation
 
     // Récupérer le nom du type
-    $stmt = $conn->prepare("SELECT nom FROM Type WHERE idType = ?");
+    $stmt = $conn->prepare("SELECT nom FROM type WHERE idType = ?");
     $stmt->execute([$idType]);
     $type = $stmt->fetch();
 
@@ -45,7 +44,7 @@ if (isset($_GET['idType'])) {
 <?php
 if ($nomCategorie) {
     // Récupérer les médias de ce type
-    $requete = $conn->prepare("SELECT idMedia, titre, nombreExemplaire FROM Media WHERE type = ?");
+    $requete = $conn->prepare("SELECT idMedia, titre, nombreExemplaire FROM media WHERE type = ?");
     $requete->execute([$idType]);
 
     foreach ($requete as $row) {

@@ -2,11 +2,11 @@
 
 <main>
   <?php
-  $utilisateur = "root";
-  $mdp = "";
-  $base = "djepaxhk";
-  $serveur = "localhost";
-  $port = 3306;
+$utilisateur = "ijtebowdelechere";
+$mdp = "LucaDELECHERE2025";
+$base = "ijtebowdelechere";
+$serveur = "ijtebowdelechere.mysql.db";
+
   try {
       $conn = new PDO("mysql:host=$serveur;dbname=$base", $utilisateur, $mdp);
       $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
@@ -15,8 +15,19 @@
       exit();
   }
 
-  $requete = "SELECT idMedia, titre, nombreExemplaire FROM Media";
-  foreach ($conn->query($requete) as $row) {
+  $searchTerm = isset($_GET['search']) ? trim($_GET['search']) : '';
+  if ($searchTerm !== '') {
+      $requete = $conn->prepare("SELECT idMedia, titre, nombreExemplaire FROM media WHERE titre LIKE :term OR auteur LIKE :term");
+      $requete->execute(['term' => "%$searchTerm%"]);
+  } else {
+      $requete = $conn->query("SELECT idMedia, titre, nombreExemplaire FROM media");
+  }
+
+  if ($requete->rowCount() === 0) {
+      echo "<p>Aucun résultat trouvé pour « " . htmlspecialchars($searchTerm) . " ».</p>";
+  }
+
+  foreach ($requete as $row) {
       $titre = htmlspecialchars($row['titre']);
       $disponible = $row['nombreExemplaire'] > 0;
       $classeDisponibilite = $disponible ? "available" : "unavailable";

@@ -1,11 +1,10 @@
-<?php $pageTitle = "Nouveautés"; include('php-elements/header.php'); ?>
+<?php $pageTitle = "Coup de cœur"; include('php-elements/header.php'); ?>
 <main>
 <?php
-$utilisateur = "root";
-$mdp = "";
-$base = "djepaxhk";
-$serveur = "localhost";
-$port = 3306;
+$utilisateur = "ijtebowdelechere";
+$mdp = "LucaDELECHERE2025";
+$base = "ijtebowdelechere";
+$serveur = "ijtebowdelechere.mysql.db";
 
 try {
     $conn = new PDO("mysql:host=$serveur;dbname=$base", $utilisateur, $mdp);
@@ -15,10 +14,10 @@ try {
     exit();
 }
 
-echo "<h2>Nouveautés</h2>";
+echo "<h2>Coup de cœur</h2>";
 
 // Sélectionner tous les médias avec "nouveau" = 1
-$requete = $conn->prepare("SELECT idMedia, titre, nombreExemplaire FROM Media WHERE pageNouveau = 1");
+$requete = $conn->prepare("SELECT idMedia, titre, nombreExemplaire FROM media WHERE pageCoeur = 1");
 $requete->execute();
 
 $medias = $requete->fetchAll();

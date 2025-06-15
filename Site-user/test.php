@@ -12,11 +12,10 @@
 <body>
 <?php include_once 'header.php'; ?>
     <?php
-    $utilisateur = "root";
-    $mdp = "";
-    $base = "djepaxhk";
-    $serveur = "localhost";
-    $port = 3306;
+$utilisateur = "ijtebowdelechere";
+$mdp = "LucaDELECHERE2025";
+$base = "ijtebowdelechere";
+$serveur = "ijtebowdelechere.mysql.db";
     try {
         $conn = new PDO("mysql:host=$serveur;dbname=$base", $utilisateur, $mdp);
         $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
@@ -24,7 +23,7 @@
         echo "Erreur : " . $e->getMessage();
     }
     
-    $requete = "SELECT idMedia, titre, nombreExemplaire FROM Media";
+    $requete = "SELECT idMedia, titre, nombreExemplaire FROM media";
     foreach ($conn->query($requete) as $row) {
         $titre = htmlspecialchars($row['titre']);
         $disponible = $row['nombreExemplaire'] > 0;

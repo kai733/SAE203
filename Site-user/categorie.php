@@ -3,11 +3,10 @@
 <main>
     
 <?php
-$utilisateur = "root";
-$mdp = "";
-$base = "djepaxhk";
-$serveur = "localhost";
-$port = 3306;
+$utilisateur = "ijtebowdelechere";
+$mdp = "LucaDELECHERE2025";
+$base = "ijtebowdelechere";
+$serveur = "ijtebowdelechere.mysql.db";
 
 try {
     $conn = new PDO("mysql:host=$serveur;dbname=$base", $utilisateur, $mdp);
@@ -17,7 +16,7 @@ try {
     exit();
 }
 
-$requete = "SELECT idType, nom FROM Type";
+$requete = "SELECT idType, nom FROM type";
 foreach ($conn->query($requete) as $row) {
     $nom = htmlspecialchars($row['nom']);
     $idType = $row['idType'];

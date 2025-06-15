@@ -2,12 +2,12 @@
       <div class="footer-section">
         <h3 class="footer-title">CATALOGUE</h3>
         <ul class="footer-links">
-          <li>Cassette audio</li>
-          <li>CD</li>
-          <li>DVD</li>
-          <li>Livre</li>
-          <li>VHS</li>
-          <li>Vinyle</li>
+          <li><a href="categories.php?idType=1">Cassette audio</a></li>
+          <li><a href="categories.php?idType=2">CD</a></li>
+          <li><a href="categories.php?idType=3">DVD</a></li>
+          <li><a href="categories.php?idType=4">Livre</a></li>
+          <li><a href="categories.php?idType=5">VHS</a></li>
+          <li><a href="categories.php?idType=6">Vinyle</a></li>
         </ul>
       </div>
 

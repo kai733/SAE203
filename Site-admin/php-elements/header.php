@@ -14,21 +14,25 @@
           <img src="img/logo.png" class="logo" />
           <div class="breadcrumb">
             <h1>Médiathèque la roche fourchat</h1>
-            <a href="index.html">Accueil</a>
+            <div class="bread-container">
+              <?php include('php-elements/breadcrumb.php'); ?>
+            </div>
           </div>
         </div>
       </div>
       <hr />
       <nav class="nav">
-        <a href="index-user.php">Accueil</a>
-        <a href="categorie.php">Catégories</a>
-        <a href="nouveaute.php">Nouveautés</a>
-        <a href="coeur.php">Coup de cœur</a>
+        <a href="index-admin.php">Médias</a>
+        <a href="emprunts.php">Emprunts</a>
+        <a href="utilisateurs.php">Utilisateurs</a>
+        <a href="statistiques.php">Statistiques</a>
         <div class="search-bar">
-          <input type="text" placeholder="Que souhaitez vous rechercher ?" />
-          <button>
+          <form method="GET" action="index-admin.php" class="search-bar">
+          <input type="text" name="search" placeholder="Chercher un média" />
+          <button type="submit">
             <img src="img/nav-recherche.png" class="nav-recherche" />
           </button>
+          </form>
         </div>
       </nav>
     </header>

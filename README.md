@@ -31,9 +31,9 @@ Les informations de connexion à la base de données sont définies directement 
 Recherchez le bloc de code suivant dans les fichiers PHP et adaptez les valeurs :
 
 ```php
-$utilisateur = "votre_utilisateur_local"; // ex: "root"
-$mdp = "votre_mot_de_passe";              // ex: ""
-$base = "djepaxhk";                       // Nom de la base importée
+$utilisateur = "votre_utilisateur_local";
+$mdp = "votre_mot_de_passe";              
+$base = "djepaxhk";                       
 $serveur = "localhost";
 ```
 
